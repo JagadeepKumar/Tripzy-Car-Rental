@@ -1,0 +1,127 @@
+.about {
+  padding: 60px 20px;
+  background-color: #d9d9db;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sub-heading {
+  font-size: 24px;
+  color: #0D9488;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.heading {
+  font-size: 40px;
+  color: #222;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+
+.about .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about .row .image {
+  flex: 1 1 600px;
+  text-align: center;
+}
+
+.about .row .image img {
+  width: 100%;
+  max-width: 640px;
+  height: 500px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about .row .content {
+  flex: 1 1 570px;
+   max-width: 640px;
+  height: 500px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 40px 30px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.about .row .content h3 {
+  font-size: 28px;
+  color: #0D9488;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.about .row .content p {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.about .row .content .icons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.about .row .content .icons-container .icons {
+  background-color: #0D9488;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 210px;
+  transition: background 0.3s ease;
+}
+
+.about .row .content .icons-container .icons:hover {
+  background-color: orange;
+}
+
+.about .row .content .icons-container .icons:hover span,
+.about .row .content .icons-container .icons:hover i {
+  color: #fff;
+}
+
+.about .row .content .icons-container .icons i {
+  font-size: 22px;
+  color: #007bff;
+}
+
+.about .row .content .icons-container .icons span {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+ .about .row .content .btn {
+  background: #c8caca;
+  color: black;
+  margin: 20px 0 10px 0;
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .row .content .btn:hover {
+  background-color: #f59e0b;
+  color: #fff;
+  transform: translateY(-2px);
+ 
+}

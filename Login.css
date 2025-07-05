@@ -1,0 +1,126 @@
+/* Login.css */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(86, 88, 88);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: larger;
+  color: #fff;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form1 {
+  background-color: transparent;
+  width: 390px;
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form1 h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  position: relative;
+  margin: 25px 0;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 45px 10px 15px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: white;
+  outline: none;
+  font-size: 16px;
+}
+
+.input-box input::placeholder {
+  color: white;
+}
+
+.input-box i {
+  color: white;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.rember-forget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.rember-forget label {
+  cursor: pointer;
+}
+
+.rember-forget a,
+.account a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.rember-forget a:hover,
+.account a:hover {
+  color: rgb(9, 9, 150);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn {
+  width: 80%;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  background-color: white;
+  color: blueviolet;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.account {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}

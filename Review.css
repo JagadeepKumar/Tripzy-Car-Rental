@@ -1,0 +1,88 @@
+.review {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sub-heading {
+  font-size: 24px;
+  color: #0D9488;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.heading {
+  font-size: 40px;
+  color: #222;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.review .slide {
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  position: relative;
+  min-height: 250px;
+  max-width: 550px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.review .slide:hover {
+  transform: translateY(-4px);
+}
+
+.review .quote-icon {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  font-size: 48px;
+  color: #ccc;
+}
+
+.review .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.review .user img {
+  height:86px;
+  width: 86px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.review .user h3 {
+  font-size: 20px;
+  color: #0D9488;
+  margin: 0;
+  font-weight: 600;
+}
+
+.review .stars {
+  margin: 10px;
+}
+
+.review .stars i {
+  font-size: 14px;
+  color: #f8b400;
+}
+
+.review p {
+  font-size: 16px;
+  color: #555;
+  max-width: 380px;
+  line-height: 1.6;
+}

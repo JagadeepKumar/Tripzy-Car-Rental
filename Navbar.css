@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 40px;
+  background-color: 	#0D9488;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-section {
+  display: flex;
+  align-items: center;
+}
+
+/* LOGO LEFT */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  outline: 1px solid;
+  border-radius: 10px;
+  gap: 8px;
+}
+
+.logo i {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+/* CENTER LINKS */
+.nav-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav-center a,
+.login-button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  text-align: center;
+  outline: 1px solid;
+  border-radius: 10px;
+  width: 90px;
+  padding: 5px;
+}
+
+.nav-center a:hover,
+.login-button a:hover {
+  color: orange;
+}
+
+/* LOGIN RIGHT */
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+}
