@@ -1,12 +1,51 @@
-# React + Vite
+ Restaurant Food Ordering Website
+A fully responsive and interactive restaurant-themed food ordering website built using HTML, CSS, JavaScript, Font Awesome, and Swiper.js. This project simulates an online food delivery platform where users can browse dishes, view reviews, and place orders.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🛠️ Technologies Used
+Technology	Usage
+HTML5	Page structure
+CSS3	Styling & layout
+JavaScript	Interactivity (menu, search, Swiper init)
+Font Awesome	Icons
+Google Fonts	Nunito Font
+Swiper.js	Review slider
+Media Queries	Responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📁 Project Structure
+bash
+Copy
+Edit
+food-ordering-website/
+│
+├── index.html
+├── style.css
+├── script.js
+├── /images
+│   ├── pizza.png
+│   ├── dish1.png
+│   ├── about.jpg
+│   ├── loader.gif
+│   └── ...
+└── README.md
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+📌 To-Do / Future Scope
+Add backend with Node.js or Firebase for real-time orders
+
+Connect to a payment gateway like Razorpay/Stripe
+
+Add user authentication (Login/Signup)
+
+Admin dashboard to manage menu & orders
+
+
+
+👨‍💻 Author
+Jagadeep Kumar
+📧 jagadeepkumar1981@gmail.com
+🔗 LinkedIn
+🐱 GitHub
